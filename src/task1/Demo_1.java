@@ -23,7 +23,7 @@ public class Demo_1 {
             group.addStudent(new Student(name, grade));
         }
 
-        System.out.println("\n================= РЕЗУЛЬТАТИ =================\n");
+        System.out.println("\n================ РЕЗУЛЬТАТИ ================\n");
 
         // 1) Звичайний обхід
         System.out.println("=== Звичайний обхід (порядок додавання) ===");
