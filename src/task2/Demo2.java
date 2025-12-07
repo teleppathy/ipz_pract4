@@ -7,7 +7,6 @@ public class Demo2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // === Створення масиву користувачем ===
         IntArray arr = new IntArray(inputArray(sc));
         System.out.println("Початковий масив:");
         arr.print();
