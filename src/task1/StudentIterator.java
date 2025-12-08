@@ -3,7 +3,7 @@ package task1;
 import java.util.List;
 
 public class StudentIterator implements Iterator<Student> {
-    private List<Student> students;
+    private final List<Student> students;
     private int index = 0;
 
     public StudentIterator(List<Student> students) {
