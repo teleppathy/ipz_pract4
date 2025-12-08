@@ -1,6 +1,7 @@
-package task1;
+import task1.Student;
+import task1.StudentCollection;
+import task1.Iterator;
 
-import java.util.Iterator;
 import java.util.Scanner;
 
 public class Demo_1 {
@@ -14,6 +15,7 @@ public class Demo_1 {
             System.out.println("\nСтудент №" + (i + 1));
             System.out.print("Введіть ім'я: ");
             String name = sc.nextLine().trim();
+
             while (name.isEmpty()) {
                 System.out.print("Ім'я не може бути пустим. Введіть ім'я: ");
                 name = sc.nextLine().trim();
@@ -25,19 +27,15 @@ public class Demo_1 {
 
         System.out.println("\n=============== РЕЗУЛЬТАТИ ===============\n");
 
-        // 1) Звичайний обхід
         System.out.println("=== Звичайний обхід (порядок додавання) ===");
         print(group.iterator());
 
-        // 2) За алфавітом
         System.out.println("=== Обхід за алфавітом (за іменем) ===");
         print(group.alphabeticalIterator());
 
-        // 3) За зростанням
         System.out.println("=== Обхід за оцінками: за зростанням ===");
         print(group.gradeAscendingIterator());
 
-        // 4) За спаданням
         System.out.println("=== Обхід за оцінками: за спаданням ===");
         print(group.gradeDescendingIterator());
 

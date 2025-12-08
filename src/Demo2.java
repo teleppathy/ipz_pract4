@@ -1,7 +1,8 @@
-package task2;
+import task2.BubbleSortStrategy;
+import task2.IntArray;
+import task2.SelectionSortStrategy;
 
 import java.util.Scanner;
-import java.util.Arrays;
 
 public class Demo2 {
     public static void main(String[] args) {
