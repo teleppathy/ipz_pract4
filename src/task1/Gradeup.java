@@ -3,7 +3,7 @@ package task1;
 import java.util.*;
 
 public class Gradeup implements Iterator<Student> {
-    private List<Student> sorted;
+    private final List<Student> sorted;
     private int index = 0;
 
     public Gradeup(List<Student> students) {
