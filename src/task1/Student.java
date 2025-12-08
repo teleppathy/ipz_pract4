@@ -1,8 +1,8 @@
 package task1;
 
 public class Student {
-    private String name;
-    private int grade;
+    private final String name;
+    private final int grade;
 
     public Student(String name, int grade) {
         this.name = name;
